@@ -1,14 +1,14 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "afkbot00",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "WarWithoutReason.aternos.me",
-    "port": 20632,
-    "version": "",
+    "ip": "Roseus.aternos.me",
+    "port": 63023,
+    "version": "1.20.1",
     "try-creative": false
   },
   "position": {
@@ -44,12 +44,12 @@
   "movement": {
     "enabled": false,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
@@ -58,15 +58,15 @@
     }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
+    "avoidMobs": false,
+    "combat": false,
     "beds": false,
-    "chat": true,
-    "console-commands": true
+    "chat": false,
+    "console-commands": false
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
     "pick-up-day": false,
@@ -82,6 +82,6 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
